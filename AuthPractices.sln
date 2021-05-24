@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthPractices", "AuthPractices\AuthPractices.csproj", "{E18B8116-B487-4809-8894-BDA625124037}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuthPractices", "AuthPractices\AuthPractices.csproj", "{E18B8116-B487-4809-8894-BDA625124037}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JWT-MVC", "JWT-MVC\JWT-MVC.csproj", "{3A6569BC-FD8D-47A3-BE38-E832EDA76140}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "coreIdentity", "coreIdentity\coreIdentity.csproj", "{20CCCCE8-721F-4552-A871-6CFA5BAD4BBE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{E18B8116-B487-4809-8894-BDA625124037}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E18B8116-B487-4809-8894-BDA625124037}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E18B8116-B487-4809-8894-BDA625124037}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A6569BC-FD8D-47A3-BE38-E832EDA76140}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A6569BC-FD8D-47A3-BE38-E832EDA76140}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A6569BC-FD8D-47A3-BE38-E832EDA76140}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A6569BC-FD8D-47A3-BE38-E832EDA76140}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20CCCCE8-721F-4552-A871-6CFA5BAD4BBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20CCCCE8-721F-4552-A871-6CFA5BAD4BBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20CCCCE8-721F-4552-A871-6CFA5BAD4BBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20CCCCE8-721F-4552-A871-6CFA5BAD4BBE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
